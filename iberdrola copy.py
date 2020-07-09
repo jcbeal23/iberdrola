@@ -22,7 +22,6 @@ with open('name.csv') as File:
             print(row)              
 '''
 import csv
-import datetime
 
 with open('name.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=';')
