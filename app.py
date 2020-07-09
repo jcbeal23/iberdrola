@@ -32,7 +32,9 @@ def uploader_file():
       #return send_file(salida.csv)
        #print ('file uploaded successfully')
        #return  render_template('/download.html')
-"""
+       
+       # Cambios Git segundo commit
+        """
 @app.route('/getPlotCSV') # this is a job for GET, not POST
 def getPlot_CSV():
     # with open("outputs/Adjacency.csv") as fp:
